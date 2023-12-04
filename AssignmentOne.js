@@ -4,7 +4,7 @@ function task_1(n) {
   for (let i = 1; i <= n; i++) {
     a = a * i;
   }
-  console.log(a);
+  return a;
 }
 
 task_1(5);
@@ -28,7 +28,7 @@ function task_2(a,b){
   console.log(x);
 }
 
-task_2(5);
+task_2(5,10);
 
 Time Complexity: O(n)
 Space Complexity: O(1)
